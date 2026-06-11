@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio João Gustavo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section id="parte1">
-        <div id="titulo">\
-        <h1>Nice to meet you, I'm João Gustavo</h1>
-        </div>
+         <header class="ptopo">
+          <h1>Nice to meet you, I'm João Gustavo</h1>
+           <div id="botoesup">
+            <a href="#Sobremim" class="botao-interativo">Sobre</a>
+            <a href="#projetos" class="botao-interativo">Projetos</a>
+            <a href="#contato" class="botao-interativo" >Meus contatos</a>
+          </div>
+         </header>
         <div>
-        <img src="fotoport.jpg" width="200" > 
+        <img src="fotos/fotoport.jpg" width="200px" class="myphoto" > 
         </div>
+        
     </section>
     <section id="Sobremim">
         <div>
         <h2>About me</h2>
-        <p id="psobre">Olá! Tenho 18 anos, sou de Recife e atualmente estou no 1º período de Ciência da Computação na CESAR School. Mantenho um grande interesse na área da programação e na resolução de problemas através do pensamento lógico. Tenho um grande desejo de futuramente direcionar meus estudos e minha carreira para as áreas de Machine Learning e Back-end.
+        <p class="prgf">Olá! Tenho 18 anos, sou de Recife e atualmente estou no 1º período de Ciência da Computação na CESAR School. Mantenho um grande interesse na área da programação e na resolução de problemas através do pensamento lógico. Tenho um grande desejo de futuramente direcionar meus estudos e minha carreira para as áreas de Machine Learning e Back-end.
         </p>
         </div>
 
@@ -33,6 +45,64 @@
             <li>CSS</li>
             <li>Scrum e Kanban</li>
         </ul>
+    </section>
+    <section id="certificados">
+        <h2>Meus certificados</h2>
+        <ul>
+            <li>Python Essentials 1 by Cisco Networking Academy
+                <div>
+                    <img src="fotos/pye1.jpg" alt="certificado python" width="150px" >
+                </div>
+            </li>
+            <li>JavaScript Essentials 1 by Cisco Networking Academy
+                <div>
+                    <img src="fotos/jse1.jpg" alt="certificado js" width="150px" >
+                </div>
+            </li>
+            <li>Desenvolvimento de sistemas Web: CSS e HTML by Fundação Getúlio Vargas
+                <div>
+                    <img src="fotos/cssehtml.jpg" alt="certificado html e css" width="150px">
+                </div>
+            </li>
+            <li>Gestão ágil de projetos com Scrum e Kanban by Senac
+                <div>
+                    <img src="fotos/sek.jpg" alt="certificado orango" width="150px" >
+                </div>
+            </li>
+            <li>Inglês intermediário - nível B1 by LSI School 
+                <div>
+                    <img src="" alt="">
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section id="projetos">
+        <h2>Meus projetos</h2>
+        <div id="pjs02">
+                <a href="bitblock.html">
+                    <img src="fotos/bitblock.jpeg" alt="bitblock" class="pjs imagem-interativa">
+                </a>
+        
+                <a href="fitplanner.html">
+                    <img src="fotos/ftlogo.png" alt="logo fp" class="pjs imagem-interativa" >
+                </a>
+                
+    </section>
+    <section id="contato">
+        <h2>Meus contatos</h2>
+        <div id="ctt">
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-gustavo-vieira-fernandes-pedrosa-949b603b7/" target="_blank">
+                  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" class="imagem-interativa"  />
+            </a>
+        
+            <a href="mailto:jgvfpedrosa@icloud.com" target="_blank">
+                 <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo" crossorigin="anonymousimagem-interativa" />
+            </a>
+        
+            <a href="https://github.com/joaogpedrosa" target="_blank">
+                <img src="fotos/logogh.svg" alt="logo github" width="52" height="40" class="imagem-interativa" >
+            </a>
+        </div>
     </section>
 </body>
 </html>
