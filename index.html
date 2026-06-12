@@ -14,25 +14,43 @@
 <body>
     <section id="parte1">
          <header class="ptopo">
-          <h1>Nice to meet you, I'm João Gustavo</h1>
+         
+          <h1 id="titulo-digitado">&nbsp;</h1>
            <div id="botoesup">
             <a href="#Sobremim" class="botao-interativo">Sobre</a>
             <a href="#projetos" class="botao-interativo">Projetos</a>
-            <a href="#contato" class="botao-interativo" >Meus contatos</a>
+            <a href="#contato" class="botao-interativo" >Contatos</a>
           </div>
          </header>
-        <div>
-        <img src="fotos/fotoport.jpg" width="200px" class="myphoto" > 
+        <div class="lol">
+    <div class="lol1">
+        
+        <img src="fotos/fotoport.jpg" width="200" class="myphoto" alt="Foto de João Gustavo">
+    </div>
+    
+    <div class="lol2">
+       
+        <h2>João Gustavo</h2>
+        <p>Science computer student</p>
+        
+        <div class="tech-stacks">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" title="HTML5">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" title="CSS3">
         </div>
+    </div>
+</div>
         
     </section>
-    <section id="Sobremim">
+    <hr>
+    <section id="sobremim">
         <div>
-        <h2>About me</h2>
+        <h2>Sobre</h2>
         <p class="prgf">Olá! Tenho 18 anos, sou de Recife e atualmente estou no 1º período de Ciência da Computação na CESAR School. Mantenho um grande interesse na área da programação e na resolução de problemas através do pensamento lógico. Tenho um grande desejo de futuramente direcionar meus estudos e minha carreira para as áreas de Machine Learning e Back-end.
         </p>
         </div>
-
+     <hr>
     </section>
     <section id="habilidades">
         <h2>Minhas habilidades</h2>
@@ -43,66 +61,85 @@
             <li>JavaScript</li>
             <li>HTML</li>
             <li>CSS</li>
+            <li>Git/Github</li>
             <li>Scrum e Kanban</li>
         </ul>
     </section>
+    <hr>
     <section id="certificados">
-        <h2>Meus certificados</h2>
-        <ul>
-            <li>Python Essentials 1 by Cisco Networking Academy
-                <div>
-                    <img src="fotos/pye1.jpg" alt="certificado python" width="150px" >
-                </div>
-            </li>
-            <li>JavaScript Essentials 1 by Cisco Networking Academy
-                <div>
-                    <img src="fotos/jse1.jpg" alt="certificado js" width="150px" >
-                </div>
-            </li>
-            <li>Desenvolvimento de sistemas Web: CSS e HTML by Fundação Getúlio Vargas
-                <div>
-                    <img src="fotos/cssehtml.jpg" alt="certificado html e css" width="150px">
-                </div>
-            </li>
-            <li>Gestão ágil de projetos com Scrum e Kanban by Senac
-                <div>
-                    <img src="fotos/sek.jpg" alt="certificado orango" width="150px" >
-                </div>
-            </li>
-            <li>Inglês intermediário - nível B1 by LSI School 
-                <div>
-                    <img src="" alt="">
-                </div>
-            </li>
-        </ul>
+        <div class="secao-certificados">
+    <h2>Certificados</h2>
+    <p>Busco constantemente expandir meus conhecimentos através de cursos e certificações, sempre fortalecendo minha base teórica,
+         Abaixo estão algumas das formações que concluí nas áreas de programação e desenvolvimento web.</p>
+
+    <div class="container-cards">
+        
+        <div class="card-certificado escondido">
+            <h3>Python Essentials 1</h3>
+            <p class="subtitulo">Cisco Networking Academy</p>
+            <img src="fotos/pye1.jpg" alt="Certificado Python">
+        </div>
+
+        <div class="card-certificado escondido">
+            <h3>JavaScript Essentials 1</h3>
+            <p class="subtitulo">Cisco Networking Academy</p>
+            <img src="fotos/jse1.jpg" alt="Certificado JavaScript">
+        </div>
+        
+        <div class="card-certificado escondido lsi">
+            <h3>Inglês intermediário - nível B1</h3>
+            <p class="subtitulo">LSI Education</p>
+           
+            <img src="fotos/inglsi.jpg" alt="Certificado Inglês LSI" height="100">
+        </div>
+        
+        <div class="card-certificado escondido">
+            <h3>Desenvolvimento de sistemas Web: CSS e HTML</h3>
+            <p class="subtitulo">Fundação Getúlio Vargas</p>
+            <img src="fotos/cssehtml.jpg" alt="Certificado CSS e HTML FGV">
+        </div>
+
+        <div class="card-certificado escondido">
+            <h3>Gestão ágil de projetos com Scrum e Kanban</h3>
+            <p class="subtitulo">Senac</p>
+            <img src="fotos/sek.jpg" alt="Certificado Scrum Senac">
+        </div>
+
+    </div>
+</div>
+      <hr>    
     </section>
     <section id="projetos">
         <h2>Meus projetos</h2>
         <div id="pjs02">
                 <a href="bitblock.html">
-                    <img src="fotos/bitblock.jpeg" alt="bitblock" class="pjs imagem-interativa">
+                    <img src="fotos/btblc.png" alt="bitblock" class="pjs imagem-interativa">
                 </a>
         
                 <a href="fitplanner.html">
-                    <img src="fotos/ftlogo.png" alt="logo fp" class="pjs imagem-interativa" >
+                    <img src="fotos/ftlogo.png" alt="logo fp" class="pjs imagem-interativa">
                 </a>
-                
+        </div> 
     </section>
+    <hr>
     <section id="contato">
-        <h2>Meus contatos</h2>
+        <h2>Contatos</h2>
         <div id="ctt">
             <a href="https://www.linkedin.com/in/jo%C3%A3o-gustavo-vieira-fernandes-pedrosa-949b603b7/" target="_blank">
-                  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" class="imagem-interativa"  />
+                  
+                  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" class="imagem-interativa">
             </a>
         
-            <a href="mailto:jgvfpedrosa@icloud.com" target="_blank">
-                 <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo" crossorigin="anonymousimagem-interativa" />
+            <a href="mailto:jgvfp@cesar.school" target="_blank">
+                
+                 <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo" crossorigin="anonymous" class="imagem-interativa">
             </a>
         
             <a href="https://github.com/joaogpedrosa" target="_blank">
-                <img src="fotos/logogh.svg" alt="logo github" width="52" height="40" class="imagem-interativa" >
+                <img src="fotos/logogh.svg" alt="logo github" width="52" height="40" class="imagem-interativa">
             </a>
         </div>
     </section>
+    <script src="use.js"></script>
 </body>
 </html>
